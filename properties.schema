@@ -1,0 +1,89 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "globals": {
+    "ariaRegion": {
+      "type": "string",
+      "required": true,
+      "default": "This component displays a series of clickable social network buttons. You can customise each one bellow.",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
+  "properties":{
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "half-width",
+      "editorOnly": true
+    },
+    "twitterURL": {
+      "type": "string",
+      "inputType": "Text",
+      "title": "Twitter",
+      "help": "Twitter account URL",
+      "required": false,
+      "default": "https://twitter.com/ODIHQ"
+    },
+    "facebookURL": {
+      "type": "string",
+      "title": "Facebook",
+      "inputType": "Text",
+      "help": "Facebook account URL",
+      "required": false,
+      "default": "https://www.facebook.com/MyODIHQ"
+    },
+    "soundcloudURL": {
+      "type": "string",
+      "inputType": "Text",
+      "title": "Soundcloud",
+      "help": "Soundcloud account URL",
+      "required": false,
+      "default": "https://soundcloud.com/theodi"
+    },
+    "scribdURL": {
+      "type": "string",
+      "inputType": "Text",
+      "title": "Scribd",
+      "help": "Scribd account URL",
+      "required": false,
+      "default": "https://www.scribd.com/OpenDataInstitute"
+    },
+    "githubURL": {
+      "type": "string",
+      "inputType": "Text",
+      "title": "GitHub",
+      "help": "GitHub account URL",
+      "required": false,
+      "default": "https://github.com/theodi"
+    },
+    "vimeoURL": {
+      "type": "string",
+      "inputType": "Text",
+      "title": "Vimeo",
+      "help": "Vimeo channel URL",
+      "required": false,
+      "default": "https://vimeo.com/theodiuk"
+    },
+    "youtubeURL": {
+      "type": "string",
+      "inputType": "Text",
+      "title": "Youtube",
+      "help": "Youtube channel URL",
+      "required": false,
+      "default": "https://www.youtube.com/user/OpenDataInstituteUK"
+    },
+    "flickrURL": {
+      "type": "string",
+      "inputType": "Text",
+      "title": "Flickr",
+      "help": "Flickr URL",
+      "required": false,
+      "default": "https://www.flickr.com/photos/ukodi/"
+    }
+  }
+}

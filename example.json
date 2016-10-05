@@ -1,0 +1,20 @@
+{
+  "_id":"c-30",
+  "_parentId":"b-05",
+  "_type":"component",
+  "_component":"accordion",
+  "_classes":"",
+  "_layout":"right",
+  "title": "Social Channels",
+  "displayTitle": "Social Channels",
+  "body": "Optional body text",
+  "instruction": "",
+  "twitterURL": "https://twitter.com/ODIHQ",
+  "facebookURL": "https://www.facebook.com/MyODIHQ",
+  "soundcloudURL": "https://soundcloud.com/theodi",
+  "scribdURL": "https://www.scribd.com/OpenDataInstitute",
+  "githubURL": "https://github.com/theodi",
+  "vimeoURL": "https://vimeo.com/theodiuk",
+  "youtubeURL": "https://www.youtube.com/user/OpenDataInstituteUK",
+  "flickrURL": "https://www.flickr.com/photos/ukodi/"
+}
